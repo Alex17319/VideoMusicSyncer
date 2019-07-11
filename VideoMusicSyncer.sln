@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{8016E5F8-5C63-4927-A78E-626B06C3E82D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGlowOverlay", "VideoGlowOverlay\VideoGlowOverlay.csproj", "{2AD18A2C-F159-4A4D-83E2-CC5820680717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFmpegCommandBuilder", "FFmpegCommandBuilder\FFmpegCommandBuilder.csproj", "{5088CBA6-4054-4BCB-93A0-092E9A927D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{BA31CA91-0048-4B15-9593-1F7CC3E0A1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WmmBuilder", "WmmBuilder\WmmBuilder.csproj", "{20D55056-3FAC-418D-B7E9-54F236F0C1F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beats", "Beats\Beats.csproj", "{C0C0335A-4FB6-4C32-981A-CF39B4E1E29F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoMusicSync", "VideoMusicSync\VideoMusicSync.csproj", "{693A97A7-C686-4925-AEC6-D7C137A214FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8016E5F8-5C63-4927-A78E-626B06C3E82D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8016E5F8-5C63-4927-A78E-626B06C3E82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8016E5F8-5C63-4927-A78E-626B06C3E82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8016E5F8-5C63-4927-A78E-626B06C3E82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD18A2C-F159-4A4D-83E2-CC5820680717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD18A2C-F159-4A4D-83E2-CC5820680717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD18A2C-F159-4A4D-83E2-CC5820680717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD18A2C-F159-4A4D-83E2-CC5820680717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5088CBA6-4054-4BCB-93A0-092E9A927D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5088CBA6-4054-4BCB-93A0-092E9A927D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5088CBA6-4054-4BCB-93A0-092E9A927D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5088CBA6-4054-4BCB-93A0-092E9A927D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA31CA91-0048-4B15-9593-1F7CC3E0A1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA31CA91-0048-4B15-9593-1F7CC3E0A1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA31CA91-0048-4B15-9593-1F7CC3E0A1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA31CA91-0048-4B15-9593-1F7CC3E0A1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D55056-3FAC-418D-B7E9-54F236F0C1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D55056-3FAC-418D-B7E9-54F236F0C1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D55056-3FAC-418D-B7E9-54F236F0C1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D55056-3FAC-418D-B7E9-54F236F0C1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C0335A-4FB6-4C32-981A-CF39B4E1E29F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C0335A-4FB6-4C32-981A-CF39B4E1E29F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C0335A-4FB6-4C32-981A-CF39B4E1E29F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C0335A-4FB6-4C32-981A-CF39B4E1E29F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693A97A7-C686-4925-AEC6-D7C137A214FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693A97A7-C686-4925-AEC6-D7C137A214FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693A97A7-C686-4925-AEC6-D7C137A214FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693A97A7-C686-4925-AEC6-D7C137A214FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBEC20CA-A600-40FA-BE84-BDA1FC833741}
+	EndGlobalSection
+EndGlobal
