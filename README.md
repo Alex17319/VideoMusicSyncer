@@ -7,4 +7,4 @@ Potentially useful code:
  - For setting up timings within music, skipping easily between beats, fractions of beats, bars, and so on: Beats
  - For constructing FFMpeg commands to overlay transparent effects (eg. circular 'glow' effects with the right image files) onto a video, synchronized with music: VideoGlowOverlay
  - For speeding up and slowing down parts of a video to match timings in music: VideoMusicSync
- - For an example of how some of these can be used (almost all parts are eventually used, but indirectly): Controller
+ - For an example of how some of these can be used (almost all parts are eventually used, but indirectly): Controller (this might be lengthy/unpleasant code, but think of it as a configuration file where I didn't want to bother parsing another language - it only needed to be used once or twice - so just used the apis directly from C#)
